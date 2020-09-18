@@ -1,0 +1,54 @@
+<div id="skip-link">
+	<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<section id="page" class="container">
+  	<section id="masthead">
+    	{{ page.site_branding }}
+  	</section>
+  	<header id="navbar" role="banner " class="navbar-inverse navbar container navbar-default    ">
+    	<div class="navbar-header">
+      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		
+      		<div class="navbar-collapse collapse">
+        		<nav role="navigation">
+          			{{ page.navigation }}
+        		</nav>
+      		</div>
+    	</div>
+  	</header>
+  
+  	<div class="bgbody">
+    	<div class="main-container container">
+      		<div class="row">
+        		<aside class="col-sm-2" role="complementary">
+          			{{ page.sidebar_first }}
+        		</aside>
+        		
+        		<section class="col-sm-8" class=" col-sm-6">
+          			{{ page.header }}
+          			{{ page.highlighted }}
+          			<a id="main-content"></a>
+          			{{ page.content }}
+        		</section>
+		        
+		        <aside class="col-sm-2" role="complementary">
+		        	{{ page.sidebar_second }}
+		        </aside>
+      		</div>
+    	</div>
+  	</div>
+  
+  	<section class="prefooter">
+    	{{ page.prefooter }}
+  	</section>
+  
+  	<footer class="footer container">
+    	{{ page.footer }}
+  	</footer>
+</section>

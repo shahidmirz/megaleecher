@@ -1,0 +1,35 @@
+
+framework:
+  css:
+    theme:
+      css/ie.css: {}
+      css/mega.min.css: {}
+      css/print.css: {}
+      css/screen.css: {}
+      css/style.css: {}
+      https://www.megaleecher.net/sites/default/files/css/css_zUEg2HTwg4qklFoLuX785qCyi1Gy5wJPDPwyoiLWCaI.css: { external: true }
+      https://www.megaleecher.net/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css: { external: true }
+      https://www.megaleecher.net/sites/default/files/css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css: { external: true }
+      https://cdn.jsdelivr.net/bootstrap/3.0.2/css/bootstrap.min.css: { external: true }
+      https://www.megaleecher.net/sites/default/files/css/css_gJWRK2OHdWd3ZDpSGtQkfHRlo1WG0xZlwQopR-NdzSE.css: { external: true }
+
+  js:
+    js/mega.min.js: {}
+    js/custom.js: {}
+    js/node.js: {}
+    http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js: { external: true }
+    https://www.megaleecher.net/sites/default/files/js/js_dWhBODswdXXk1M5Z5nyqNfGljmqwxUwAK9i6D0YSDNs.js: { external: true }
+    https://cdn.jsdelivr.net/bootstrap/3.0.2/js/bootstrap.min.js: { external: true }
+    https://www.megaleecher.net/sites/default/files/js/js_NFOYVkssJJkKpCl5tOYwFARtpWHsiQyPBh7Fc8oeJ7o.js: { external: true }
+    https://www.megaleecher.net/sites/default/files/js/js_zYhWToqYCItMKJLiPKZrO0w1W1o_tZ4PTee6lVu_HNU.js: { external: true }
+    https://www.megaleecher.net/sites/default/files/js/js_8jesztKLu9rCDCmAh4TUgGDO0PLl9BKmil9c2nLMnOc.js: { external: true }
+  dependencies:
+  - core/jquery
+
+
+
+
+
+    
+    
+

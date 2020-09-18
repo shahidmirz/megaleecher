@@ -1,0 +1,22 @@
+<?php
+
+
+?>
+
+
+
+<div id="{{ block_html_id }}" class="{{ classes }}"{{ attributes }}>
+{{ block.delta = 300 }}
+  {{ title_prefix }}
+{% if block.subject %}
+  <h2 {{ title_attributes }}>{{ block.subject }}</h2>
+
+{% endif %}
+ {{ title_prefix }}
+
+  <div class="content"{{ content_attributes }}>
+    {{  content }}
+  </div>
+</div>
+
+

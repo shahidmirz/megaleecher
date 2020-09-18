@@ -1,0 +1,18 @@
+name: megaleecher
+core: 8.x
+type: theme
+description: 'A megaleechersubtheme'
+regions:
+  site_branding: 'Site Branding'
+  navigation: 'Navigation'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  prefooter: 'Pre-Footer'
+  footer: 'Footer'
+  hidden: 'Hidden'
+libraries:
+  - megaleecher/framework
